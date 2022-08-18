@@ -2,7 +2,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 85vh;
   justify-content: center;
 }
 
@@ -19,14 +19,14 @@
 }
 
 .login__header h1 {
-  color: #333;
+  color: rgb(29, 5, 73);
   font-size: 1.5em;
 }
 
 .login__input {
-  border: 2px solid #333;
+  border: 2px solid rgb(33, 16, 128);
   border-radius: 8px;
-  color: #333;
+  color: rgb(18, 179, 243);
   font-size: 1em;
   margin-bottom: 15px;
   max-width: 300px;

@@ -3,16 +3,16 @@ const spanPlayer = document.querySelector('.player');
 const timer = document.querySelector('.timer');
 
 const characters = [
-  'beth',
-  'jerry',
-  'jessica',
-  'morty',
-  'pessoa-passaro',
-  'pickle-rick',
-  'rick',
-  'summer',
-  'meeseeks',
-  'scroopy',
+  '3',
+  'espada',
+  'maldi',
+  'rei',
+  'extra',
+  'sansei',
+  'todo',
+  'sukuna',
+  'toge',
+  'triu'
 ];
 
 const createElement = (tag, className) => {
@@ -104,8 +104,8 @@ const loadGame = () => {
 
   const shuffledArray = duplicateCharacters.sort(() => Math.random() - 0.5);
 
-  shuffledArray.forEach((character) => {
-    const card = createCard(character);
+  shuffledArray.forEach((characters) => {
+    const card = createCard(characters);
     grid.appendChild(card);
   });
 }
